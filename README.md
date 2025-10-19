@@ -1,4 +1,7 @@
 # 🛡️ Mining Safety Analytics Project
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohamed%20Emad-blue?logo=linkedin)](https://www.linkedin.com/in/mohamed-emad-396981344)
+[![Email](https://img.shields.io/badge/Email-mohamedemad24649%40gmail.com-red?logo=gmail)](mailto:mohamedemad24649@gmail.com)
+
 
 ### Comprehensive Analysis of Mine Accident Data (OSHA)
 
