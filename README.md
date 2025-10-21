@@ -6,28 +6,24 @@
 ### Comprehensive Analysis of Mine Accident Data (OSHA)
 
 This project explores mining accident data from **[OSHA Data Portal](https://www.osha.gov/data)**, focusing on identifying safety risks, understanding root causes, and evaluating performance across mines, contractors, and industries.  
-The analysis combines **SQL**, **Python**, and **Power BI** to deliver data-driven insights for improving workplace safety.
+The analysis combines **SQL**, **Python** to deliver data-driven insights for improving workplace safety.
 
 ---
 
 ## 📁 Project Structure
 
-```
 | File / Folder | Description |
 |----------------|-------------|
 | **/SQL/** | Contains 30+ advanced SQL queries for analytical exploration of mining safety data. |
 | **/Python/** | Includes Jupyter Notebook scripts using `pandas`, `seaborn`, and `matplotlib` for generating automated charts. |
 | **/Charts/** | Stores all generated visualizations as PNG files. |
-| **/Dashboard/** *(in progress)* | Power BI dashboard (free version) visualizing key safety indicators interactively. |
-| **data.csv** | Link and details of the OSHA dataset used. |
-```
 
 ---
 
 ## 🧩 Analytical Dimensions
 
 The analysis covers **five core safety domains:**
-```
+
 | Category | Description |
 |-----------|--------------|
 | 🛠️ **Risk Identification** | Accidents categorized by equipment, occupation, and mining location. |
@@ -35,7 +31,6 @@ The analysis covers **five core safety domains:**
 | 🔍 **Root Cause Analysis** | Linking accidents to activities, machinery, and worker experience. |
 | 📈 **Performance Benchmarking** | Comparing safety metrics across contractors, mines, and industries. |
 | ⏱️ **Safety Monitoring** | Evaluating reporting compliance and investigation timeliness. |
-```
 
 ---
 
@@ -44,30 +39,29 @@ The analysis covers **five core safety domains:**
 Below are sample insights extracted from the OSHA mining dataset.
 
 ### 🛠️ Risk Identification — *Top Accident-Prone Equipment*
-![Top Equipment](charts/top_equipment.png)
+![Top Equipment](charts/risk_equipment.png)
 
 ### ⚠️ Severity Measurement — *Fatal / Permanent Disability Accidents Over Years*
 ![Fatal Trends](charts/severity_fatal_trend.png)
 
 ### 🔍 Root Cause Analysis — *Average Days Lost by Experience Group*
-![Experience Group](charts/experience_days_lost.png)
+![Experience Group](charts/root_experience.png)
 
 ### 📈 Performance Benchmarking — *Top Contractors by Accident Count*
-![Contractors](charts/top_contractors.png)
+![Contractors](charts/performance_contractors.png)
 
 ### ⏱️ Safety Monitoring — *Immediate Reporting Compliance*
-![Reporting Compliance](charts/reporting_compliance.png)
+![Reporting Compliance](charts/safety_reporting.png)
 
 ---
 
 ## ⚙️ Tools & Technologies
-```
+
 | Tool | Purpose |
 |------|----------|
 | **SQL Server** | Querying and aggregating OSHA data (30+ analytical queries). |
 | **Python (Pandas, Seaborn, Matplotlib, OS)** | Automated chart generation and data preprocessing. |
-| **Power BI (Free)** | Building interactive dashboards for management visualization. |
-```
+| **Power BI** | Building interactive dashboards for management visualization. |
 
 ---
 
